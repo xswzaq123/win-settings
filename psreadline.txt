@@ -1,0 +1,6 @@
+# Install PSReadLine
+Install-Module -Name PSReadLine -Scope Currentuser -Force -SkipPublisherCheck
+
+# PSReadLine Profile Settings
+Set-PSReadLineOption -PredictionSource History 
+Set-PSReadLineOption -PredictionViewStyle ListView
